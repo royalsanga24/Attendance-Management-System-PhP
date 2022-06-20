@@ -1,0 +1,167 @@
+body{
+    background: url('https://static.vecteezy.com/system/resources/previews/002/028/275/non_2x/abstract-blue-color-of-healthy-and-medical-background-technology-and-science-with-hexagonal-shape-background-vector.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* 
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+.screen {		
+	background: linear-gradient(90deg, #5D54A4, #7C78B8);		
+	position: relative;	
+	height: 600px;
+	width: 360px;	
+	box-shadow: 0px 0px 24px #5C5696;
+}
+
+.screen__content {
+	z-index: 1;
+	position: relative;	
+	height: 100%;
+}
+
+.screen__background {		
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 0;
+	-webkit-clip-path: inset(0 0 0 0);
+	clip-path: inset(0 0 0 0);	
+}
+
+.screen__background__shape {
+	transform: rotate(45deg);
+	position: absolute;
+}
+
+.screen__background__shape1 {
+	height: 520px;
+	width: 520px;
+	background: #FFF;	
+	top: -50px;
+	right: 120px;	
+	border-radius: 0 72px 0 0;
+}
+
+.screen__background__shape2 {
+	height: 220px;
+	width: 220px;
+	background: #6C63AC;	
+	top: -172px;
+	right: 0;	
+	border-radius: 32px;
+}
+
+.screen__background__shape3 {
+	height: 540px;
+	width: 190px;
+	background: linear-gradient(270deg, #5D54A4, #6A679E);
+	top: -24px;
+	right: 0;	
+	border-radius: 32px;
+}
+
+.screen__background__shape4 {
+	height: 400px;
+	width: 200px;
+	background: #7E7BB9;	
+	top: 420px;
+	right: 50px;	
+	border-radius: 60px;
+} */
+
+
+.main-title{
+    font-size: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-top: 100px;
+}
+
+
+.sub-title{
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.form-horizontal .control-label{
+    display: none;
+}
+
+.col-sm-7, .col-sm-6{
+    margin: 0 auto!important;
+    float: none!important;
+}
+
+.form-control{
+    border-radius: 0px!important;
+    padding: 15px!important;
+    font-size: 0.9em!important;
+    height: 40px!important;
+    border: 1px solid #6c6a6a!important;
+}
+
+.col-sm-6 label{
+    margin: 10px!important;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 0.9em;
+    letter-spacing: 0.09em;
+}
+
+.btn{
+    border-radius: 0%!important;
+    margin: 20px auto!important;
+    float: none!important;
+    text-transform: uppercase!important;
+    letter-spacing: 0.2em!important;
+    font-size: 0.9em!important;
+    background: #000!important;
+	padding: 10px 20px 10px 20px!important;
+    transition: 0.5s!important;
+}
+
+.btn:hover{
+    background: #fff!important;
+    border: solid 1px #fff!important;
+    transition: 0.5s!important;
+    color: #000!important;
+}
+
+.content{
+    background: transparent!important;
+}
+
+.main-wrap{
+	width: 500px!important;
+	background: linear-gradient(270deg, #ada8d2, #6A679E)!important;
+	background-color: #fff!important;
+	background-image: url('https://p4.wallpaperbetter.com/wallpaper/665/877/208/abstraction-vector-abstract-geometry-wallpaper-preview.jpg')!important;
+    padding: 10px 20px!important;
+	margin-top: 40px!important;
+	background-position: center 100px!important;
+    background-repeat: no-repeat!important;
+}
+
+form.col-md-offset-3{
+	margin: 0 auto!important;
+}
+
+form.col-md-6{
+	width: 100%!important;
+}
+
+.resetpwd-wrap a:hover{
+	text-decoration: underline!important;
+}
